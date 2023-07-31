@@ -153,5 +153,5 @@ def home(montante: float,
             'apos_x_anos': ano
         }
     }
-
-    return res
+    
+    return res
