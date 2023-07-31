@@ -150,7 +150,6 @@ def home(montante: float,
             'mes': mes_str,
             'ano': ano,
             'numero_mes': numero_mes,
-            'apos_x_anos': ano
         }
     }
     
