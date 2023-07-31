@@ -117,20 +117,6 @@ def mes_from_int(i: int):
     case 12:
         return "Dezembro"
 
-
-class Result:
-    melhor_opcao: str
-    valor_acumulado: float
-    numero_mes: int
-
-
-def consultor(montante: float, 
-              valor_aluguel: float, 
-              aumento_aluguel: float, 
-              valorizacao_imovel: float, 
-              juros_aplicacao: float) -> Result:
-    pass
-
 @app.get("/")
 def home(montante: float, 
          valor_aluguel: float, 
